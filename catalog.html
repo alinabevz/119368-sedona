@@ -32,27 +32,21 @@
       <form class="searchform" action="#" method="get">
         <fieldset class="searchform__item">
           <legend class="searchform__quest">Инфраструктура:</legend>
-          <label class="searchform__ans">
-          Бассейн <input class="searchform__checkbox" type="checkbox" name="pool" checked>
-          </label>
-          <label class="searchform__ans">
-          Парковка <input class="searchform__checkbox" type="checkbox" name="parking">
-          </label>
-          <label class="searchform__ans">
-          WI-FI <input class="searchform__checkbox" type="checkbox" name="wifi">
-          </label>
+          <input class="searchform__checkbox" id="pool-checkbox" type="checkbox" name="pool" checked>
+          <label class="searchform__ans" for="pool-checkbox">Бассейн </label>
+          <input class="searchform__checkbox" id="parking-checkbox" type="checkbox" name="parking">
+          <label class="searchform__ans" for="parking-checkbox">Парковка </label>
+          <input class="searchform__checkbox" id="wifi-checkbox" type="checkbox" name="wifi">
+          <label class="searchform__ans" for="wifi-checkbox">WI-FI</label>
         </fieldset>
         <fieldset class="searchform__item">
           <legend class="searchform__quest">Тип жилья:</legend>
-          <label class="searchform__ans">
-          Гостиница <input class="searchform__checkbox" type="checkbox" name="hotel" checked>
-          </label>
-          <label class="searchform__ans">
-          Мотель <input class="searchform__checkbox" type="checkbox" name="motel" checked>
-          </label>
-          <label class="searchform__ans">
-          Апартаменты <input class="searchform__checkbox" type="checkbox" name="apartments" checked>
-          </label>
+          <input class="searchform__checkbox" id="hotel-checkbox" type="checkbox" name="hotel" checked>
+          <label class="searchform__ans" for="hotel-checkbox"> Гостиница </label>
+          <input class="searchform__checkbox" id="motel-checkbox" type="checkbox" name="motel" checked>
+          <label class="searchform__ans" for="motel-checkbox">Мотель </label>
+          <input class="searchform__checkbox" id="apartments-checkbox" type="checkbox" name="apartments" checked>
+          <label class="searchform__ans" for="apartments-checkbox">Апартаменты </label>
         </fieldset>
         <fieldset class="searchform__item">
           <legend class="searchform__quest">Стоимость в сутки (р): </legend>
