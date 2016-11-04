@@ -4,6 +4,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -21,3 +22,136 @@ h2 {
   font-size: 21px;
   line-height: 21px;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo { 
+  width: 240px;
+  margin: 0 auto;
+}
+
+.main-nav__item {
+  width: 20%;
+  text-align: center;
+}
+
+.main-nav__item:nth-child(1),
+.main-nav__item:nth-child(2) {
+  float: left;
+}
+
+.main-nav__item:nth-child(3),
+.main-nav__item:nth-child(4) {
+  float: right;
+}
+
+.main-nav__list {
+  list-style: none;
+}
+
+.main-nav__link {
+  text-decoration: none;
+  font-family: "PT Sans";
+  color: #333333;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.welcome {
+  margin-bottom: 60px;
+}
+
+.title {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.reasons__main-title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.reasons__textblock {
+  float: left;
+  width: 400px;
+}
+
+.reasons__image {
+  float: right;
+  width: 800px;
+}
+
+
+.reasons__item {
+  margin-bottom: 55px;
+}
+
+.info__item {
+  width: 33%;
+  float: left
+}
+
+.info {
+  margin-bottom: 85px;
+}
+
+/* почему 4?! */
+.reasons__item:nth-child(4) .reasons__textblock {
+  float: right;
+  width: 400px;
+}
+
+.reasons__item:nth-child(4) .reasons__image {
+  float: left;
+  width: 800px;
+}
+
+.reasons__bottom {
+  margin-bottom: 55px;
+}
+
+.search__title,
+.search__text {
+  width: 440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search__title {
+  margin-bottom: 30px;
+}
+
+.search__text {
+  margin-bottom: 130px;
+}
+
+.searchform {
+  width: 570px;
+  margin: 0 auto;
+}
+
+.tag,
+.social,
+.copyright {
+  width: 33%;
+  float:left;
+  text-align: center;
+}
+
+/*.search__image {
+  z-index: -100;
+  position: absolute;
+  bottom: 0px;
+} */
