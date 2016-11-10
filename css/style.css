@@ -26,16 +26,40 @@ h2 {
 .container {
   width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
 
 .logo { 
-  width: 240px;
+  width: 138px;
+  height: 70px;
   margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -69px;
+}
+
+.logo__link {
+  background-image: url("../img/logo.png");
+  width: 138px;
+  height: 70px;
+  display: block;
+  z-index: 100;
+  font-size: 0;
+}
+
+.main-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .main-nav__item {
   width: 20%;
   text-align: center;
+  vertical-align: top;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 .main-nav__item:nth-child(1),
@@ -48,17 +72,10 @@ h2 {
   float: right;
 }
 
-.main-nav__list {
-  list-style: none;
-}
-
 .main-nav__link {
   text-decoration: none;
   font-family: "PT Sans";
   color: #333333;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 26px;
 }
 
 .clearfix::after {
@@ -69,6 +86,9 @@ h2 {
 
 .welcome {
   margin-bottom: 60px;
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
 }
 
 .title {
