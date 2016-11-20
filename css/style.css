@@ -358,8 +358,7 @@ h2 {
 }
 
 
-.searchform__quest--date::after {
-  content: "";
+.searchform__date{
   display: block;
   width: 23px;
   height: 23px;
@@ -370,11 +369,11 @@ h2 {
   background-repeat: no-repeat;
 }
 
-.searchform__quest--date::after:hover {
+.searchform__date:hover {
   background-image: url(../img/calendar--hvr.png);
 }
 
-.searchform__quest--date::after:active {
+.searchform__date:active {
   background-image: url(../img/calendar--act.png);
 }
 
