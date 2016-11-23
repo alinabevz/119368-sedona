@@ -717,6 +717,7 @@ h2 {
   font: inherit;
   background: none;
   border: none;
+  outline: none;
 }
 
 .filterform__range {
