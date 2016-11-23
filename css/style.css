@@ -202,7 +202,7 @@ h2 {
   margin: 0 auto;
   margin-top: 55px;
   margin-bottom: 26px;
-  background-image: url(../img/Layer%2012.png);
+  background-image: url(../img/house.png);
   background-repeat: no-repeat;
   background-position: 5px;
 }
@@ -215,7 +215,7 @@ h2 {
   margin: 0 auto;
   margin-top: 55px;
   margin-bottom: 26px;
-  background-image: url(../img/Layer%2013.png);
+  background-image: url(../img/food.png);
   background-repeat: no-repeat;
   background-position: 5px;
 }
@@ -228,7 +228,7 @@ h2 {
   margin: 0 auto;
   margin-top: 55px;
   margin-bottom: 26px;
-  background-image: url(../img/Layer%2011.png);
+  background-image: url(../img/souvenir.png);
   background-repeat: no-repeat;
   background-position: 10px 0;
 }
@@ -585,7 +585,7 @@ h2 {
 .filterform {
   width: 1200px;
   height: 190px;
-  background-image: url(../img/Layer%2061%20copy%206.jpg);
+  background-image: url(../img/filterform.jpg);
   background-repeat: no-repeat;
   padding-left: 70px;
   padding-top: 29px;
